@@ -1,6 +1,6 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Andrew Zhuravchak"
+description: "Andrew Zhuravchak personal website and resume"
 
 # Build settings
 markdown: kramdown
@@ -10,20 +10,22 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+resume_name:                    "Andrew Zhuravchak"
+resume_title:                   "Software Engineer"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           "zhuravchak@ucu.edu.ua"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_telephone:       "555-555"
+resume_contact_address:         "Lviv, Ukraine"
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+resume_header_contact_info:     "Lviv, Ukraine • zhuravchak@ucu.edu.ua"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "
+<p>I'm the persistent and hardworking student, already worked with projects in different areas connected with web-development, IoT, data analysis and machine learning, blockchain and cryptocurrencies. I have a great experience in competitive programming and algorithm research & development. Enjoy working in a team on difficult and non-ordinary tasks. Nowadays student at Computer Science program in Ukrainian Catholic University.</p>
+"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -36,23 +38,23 @@ resume_looking_for_work:        "yes"
 resume_section_experience:      true
 resume_section_education:       true
 resume_section_projects:        true
-resume_section_skills:          true
+#resume_section_skills:          true
 resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
-# resume_section_interests:       true
+#resume_section_links:           true
+#resume_section_associations:    true
+resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  resume_github_url:            "https://github.com/Retsediv"
+#  resume_twitter_url:           "http://twitter.com/jglovier"
+#  resume_dribbble_url:          "https://dribbble.com/jag"
+  resume_facebook_url:         "https://www.facebook.com/a.zhuravchak"
+  resume_linkedin_url:          "https://www.linkedin.com/in/andrew-zhuravchak-9647b7a1/"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
-  resume_medium_url:            "https://medium.com/@jglovier"
+#  resume_website_url:           "http://joelglovier.com"
+#  resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
 # Design settings

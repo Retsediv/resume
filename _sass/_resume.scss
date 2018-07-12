@@ -21,12 +21,15 @@
 .page-header { padding: 1.5rem 0;
 
   .avatar {
-    width: 95px;
+    width: 150px;
     max-width: 100%;
     overflow: hidden;
     @include border-radius(100px);
     margin: 0 auto;
     display: block;
+    float: left;
+
+    @include media_max(600px) { float: none; }
   }
 
   .header-name {
@@ -36,7 +39,19 @@
     text-align: center;
     letter-spacing: -.15rem;
     line-height: 1;
-    margin: 1rem 0 0;
+    margin: 3rem 0 0;
+    float: right;
+
+    @include media_max(600px) { float: none; }
+  }
+
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+  }
+
+  .clearfix:after {
+    clear: both;
   }
 
   .header-contact-info {

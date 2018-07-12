@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "http://rubygems.org"
 
 gem 'github-pages'
 # this gem provides regeneration support improvements on Windows

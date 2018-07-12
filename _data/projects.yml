@@ -1,16 +1,35 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+# ImageCompression
+- project: SSVD (image compression algorithm)
+  duration: 09/2017 &mdash; 02/2018
+  url: "https://github.com/Retsediv/SVDImageCompression"
+  description: "
+  It's image compression algorithm based on simple SVD decomposition but gives much better results.
+  <br>Used technologies: python, image processing, linear algebra"
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+# ImageCompression
+- project: FastLinearAlgebraLibrary
+  duration: 09/2017 &mdash; 02/2018
+#  url: "https://github.com/Retsediv/SVDImageCompression"
+  description: "
+  The library for some basic linear algebra computations.
+  Here is implemented own lazy evaluations model, thread pool and executor.
+  The performance of my library is 20-50% better(not in all cases) than Eigen(famous C++ library).
+  <br>Used technologies: C++, multithreading, SSE and MPI"
+
+# ImageCompression
+- project: GLOBOS
+  duration: 2015 &mdash; 2016
+  url: "https://github.com/Retsediv/edu"
+  description: "
+  Ukrainian educational web platform oriented toward schools.
+  <br>Used technologies: PHP(Laravel), JS(Vue), html, css"
+
+# ImageCompression
+- project: QUESTER
+  duration: 12/2016 &mdash; 03/2017
+  description: "
+  Service to find the best and interesting tourist routes of Lviv.
+  Ability to make check-in at these points, etc...
+  <br>Used technologies: Python(flask), js, html/css + analysis of Lviv Open Data"
