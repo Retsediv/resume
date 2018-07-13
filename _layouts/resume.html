@@ -137,19 +137,18 @@
       <!-- end Skills -->
       {% endif %}
 
-      {% if site.resume_section_recognition %}
+      {% if site.resume_section_most_proud_of %}
       <!-- begin Recognition -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2>Most proud of</h2>
         </header>
 
-        {% for recognition in site.data.recognitions %}
+        {% for proud in site.data.most_proud_of %}
         <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
+          <h3 class="resume-item-title" itemprop="award">{{ proud.award }}</h3>
+          <p class="resume-item-copy">{{ proud.summary }}</p>
         </div>
         {% endfor %}
 
