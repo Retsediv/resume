@@ -14,7 +14,7 @@ resume_name:                    "Andrew Zhuravchak"
 resume_title:                   "Software Engineer"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "zhuravchak@ucu.edu.ua"
+resume_contact_email:           "zhuravchakandrew@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "555-555"
@@ -24,7 +24,11 @@ resume_header_contact_info:     "Lviv, Ukraine • zhuravchak@ucu.edu.ua"
 display_header_contact_info:    "false"
 
 resume_header_intro: "
-<p>I'm the persistent and hardworking student, already worked with projects in different areas connected with web-development, IoT, data analysis and machine learning, blockchain and cryptocurrencies. I have a great experience in competitive programming and algorithm research & development. Enjoy working in a team on difficult and non-ordinary tasks. Nowadays student at Computer Science program in Ukrainian Catholic University.</p>
+<ul>
+<li>Software engineer with 3+ years of experience (including both commercial and non-profit projects) ranging from the web development and competitive programming to the blockchain technology</li>
+<li>Developed image compression algorithm which is better than standard SVD approach in 2-3 times and built linear algebra library which is 10-15% better then Eigen(industrial standard for such computation) (you can find this projects on my GitHub account)</li>
+<li>Keen on data analysis and machine learning. Linux admirer</li>
+</ul>
 "
 
 # use "yes" to display the email contact button,
