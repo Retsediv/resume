@@ -4,12 +4,26 @@
 - company: Merit
   position: Software Engineer
   duration:  June, 2017 &mdash; Present
-  summary: It's a project connected with a blockchain and we are developing a cryptocurrency. At that moment, I am working on GPU miner implementation under NVIDIA(C++, CUDA) and AMD(C++, OpenCL).
+  summary: <ul><li>Launched GPU mining support for Merit mining library (C++, CUDA).</li>
+           <li>Initiated, planned and implemented support for Merit solo mining using local or remote blockchain daemon (C++)</li>
+           <li>Worked on the core protocol (daemon) to expand referral system with messages and expand
+             transactions capability (C, C++). Integrated Merit mining library with the easy-to-use application.</li>
+           <li>Worked with mining data visualization, implemented real-time charts for displaying mining info and controlling the state of your
+             CPUs and GPUs (load and temperature) (C++, Angular, Electron)</li></ul>
+
+# Ukrainian Minor Academy of Science
+- company: Ukrainian Minor Academy of Science
+  position: Mentor and scientific supervisor
+  duration:  November, 2017 &mdash; Present
+  summary: <ul><li>Helping pupils to make their first steps in science starting from choosing a topic to explore and ending with presentation skills training</li>
+           <li>We released 3 scientific researches in the previous year and working on 5 this year</li>
+           <li>One of my students took the 2nd place in the regional competition in 2018</li></ul>
 
 
 # Cyberchisel
 - company: Cyberchisel
   position: Full Stack Web Developer
   duration:   June, 2017  &mdash; September, 2017
-  summary: Worked on social network(BlogMyChild). In the frontend part(Angular) made all layouts from scratch, worked on user experience and interaction improving.
-           In the backend part(Laravel 5) implemented push notification through different devices as a response to different actions on the website.
+  summary: <ul><li>Built from scratch frontend (on AngularJS) of BlogMyChild social network (more than 35 unique pages, client-server interaction, etc.)</li>
+           <li>Implemented push notification service for sending notification through various devices as a response to
+               different actions on the website (PHP, Laravel)</li></ul>
